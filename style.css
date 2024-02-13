@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Teko',sans-serif, Arial, Helvetica;
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(45deg, #08203e, #557c93);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    font-size: 22px;
+    padding: 25px;
+    font-family: 'Inter', sans-serif, Arial;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 350px;
+    padding: 21px;
+    border-radius: 5px;
+}
+
+span#res_temp{
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+
+select{
+    width: 140px;
+    font-family: 'Inter', Arial;
+    font-size: 17px;
+    padding: 6px;
+    margin: 5px;
+}
+
+input{
+    width: 140px;
+    font-size: 16px;
+    padding: 4px;
+}
+
+input#btn{
+    font-family: 'Inter', arial, sans-serif;
+    width: 100%;
+    height: 32px;
+    margin-top: 10px; 
+}
