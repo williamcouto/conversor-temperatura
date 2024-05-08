@@ -24,20 +24,19 @@ body{
 }
 
 main{
-    font-size: 22px;
-    padding: 25px;
-    font-family: 'Inter', sans-serif, Arial;
+    padding: 30px;
 }
 
 .container{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: #ffff;
     width: 400px;
-    height: 350px;
-    padding: 21px;
-    border-radius: 5px;
+    height: 250px;
+    padding: 14px;
+    border-radius: 7px;
 }
 
 span#res_temp{
@@ -47,22 +46,21 @@ span#res_temp{
 }
 
 select{
-    width: 140px;
+    width: 120px;
+    height: 32px;
     font-family: 'Inter', Arial;
     font-size: 17px;
-    padding: 6px;
-    margin: 5px;
+    margin: 8px;
 }
 
 input{
-    width: 140px;
-    font-size: 16px;
+    width: 120px;
     padding: 4px;
 }
 
-input#btn{
+#btn{
     font-family: 'Inter', arial, sans-serif;
     width: 100%;
     height: 32px;
-    margin-top: 10px; 
+    margin-top: 13px; 
 }
