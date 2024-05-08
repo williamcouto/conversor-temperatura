@@ -11,18 +11,20 @@
     <main>
     <h1>Conversor de Temperatura</h1>
     <div class="container">
-        <label for="tempo_user">Temperatura:</label>
-            <input type="number" name="tempo_user" id="tempo_user">
-        <label for="from">De:</label>
-        <select id="from">
-            <option value="Celsius">Celsius</option>
-            <option value="Fahrenheit">Fahrenheit</option>
-        </select>
-        <label for="to">Para:</label>
-        <select id="to">
-            <option value="Celsius">Celsius</option>
-            <option value="Fahrenheit">Fahrenheit</option>
-        </select>
+    <label for="tempo_user">Temperatura:</label>
+    <input type="number" name="tempo_user" id="tempo_user">
+    <div class="box-select">
+        <label for="from"></label>
+            <select id="from">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+         <label for="to">Para:</label>
+            <select id="to">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+    </div>
         <input id="btn"  type="button" value="VERIFICAR" onclick="converterTemp()">
         <span id="res_temp"></span>
     </div>
