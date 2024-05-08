@@ -64,3 +64,9 @@ input{
     height: 32px;
     margin-top: 13px; 
 }
+
+.box-select{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
