@@ -27,7 +27,6 @@ main{
 .container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin: auto;
     background-color: #ffff;
     width: 400px;
@@ -38,6 +37,7 @@ main{
 
 span#res_temp{
     font-size: 26px;
+    font-weight: bold;
     text-align: center;
     padding: 20px;
 }
