@@ -28,7 +28,6 @@ main{
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 20px;
     background-color: #ffff;
     width: 400px;
     height: 250px;
@@ -48,7 +47,7 @@ span{
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 select{
