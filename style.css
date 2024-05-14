@@ -28,6 +28,7 @@ main{
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-top: 20px;
     background-color: #ffff;
     width: 400px;
     height: 250px;
