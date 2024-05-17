@@ -28,4 +28,10 @@ function converterTemp(){
     else if(from === "Kelvin" && to === "Celsius"){//Kelvin para Celsius
         result.innerHTML = (tempo - 273)
     }
+    if(from === "Fahrenheit" && to === "Kelvin"){
+        result.innerHTML = (tempo + 459.67) * 5/9 
+    }
+    else if(from == "Kelvin" && to === "Fahrenheit"){
+        result.innerHTML = (tempo - 273.15) * 9/5 + 32
+    }
 }
