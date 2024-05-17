@@ -8,7 +8,7 @@ function converterTemp(){
     let tempo = parseFloat(tempo_Input.value)
     let to = to_Select.value
     let from = from_Select.value
-
+     let resultFormt = result
     // Verifica se a temperatura é um número valido
     if(isNaN(tempo)){
         window.alert("Insira um número válido!")
@@ -34,4 +34,5 @@ function converterTemp(){
     else if(from == "Kelvin" && to === "Fahrenheit"){
         result.innerHTML = (tempo - 273.15) * 9/5 + 32
     }
+    resultFormt.innerHTML = result.toFixed(2)
 }
