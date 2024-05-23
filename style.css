@@ -73,6 +73,6 @@ input{
 
 .box-select{
     display: flex;
+    align-items: center;
     flex-direction: row;
-    gap: 3px;
 }
