@@ -46,14 +46,15 @@ span{
 }
 
 select{
-    width: 200px;
-    height: 30px;
+    width: 135px;
+    height: 31px;
     font-family: 'Montserrat', Arial, sans-serif;
     margin: 8px;
 }
 
 input{
-    width: 120px;
+    width: 122px;
+    height: 30px;
     padding: 4px;
 }
 
