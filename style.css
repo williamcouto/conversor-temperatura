@@ -7,13 +7,6 @@
     padding: 0px;
 }
 
-h1{
-    font-family: 'Montserrat',sans-serif, Arial, Helvetica;
-    color: #ffff;
-    font-size: 2.2em;
-    text-align: center;
-}
-
 body{
     font-family: 'Montserrat',sans-serif, Arial, Helvetica;
     background-image: linear-gradient(45deg, #08203e, #557c93);
