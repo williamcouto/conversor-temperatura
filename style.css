@@ -21,11 +21,14 @@ main{
 .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: auto;
+    margin-top: 80px;
     background-color: #ffff;
-    width: 400px;
-    height: 250px;
-    padding: 14px;
+    border: 2px solid #013b31;
+    width: 450px;
+    height: 200px;
+    padding: 12px;
     border-radius: 4px;
 }
 
