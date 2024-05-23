@@ -62,9 +62,10 @@ input{
     font-family: 'Montserrat', arial, sans-serif;
     background-color: #211c1c;
     color: #ffff;
+    cursor: pointer;
     border: none;
-    border-radius: 7px;
-    width: 100%;
+    border-radius: 6px;
+    width: 50%;
     height: 33px;
     padding: 7px;
     margin-top: 13px; 
